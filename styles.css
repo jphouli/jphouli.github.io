@@ -1,0 +1,118 @@
+@keyframes slideLeftIntoPlace {
+  0% {
+    transform: translateX(-50vw);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: translateX(0vw);
+    opacity: 1;
+  }
+}
+
+@keyframes slideSkillsBottomIntoPlace {
+  0% {
+    transform: translateY(50vh);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slideEducationBottomIntoPlace {
+  0% {
+    transform: translateY(100vh);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slideTopIntoPlace {
+  0% {
+    transform: translateY(-50vh);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: translateY(0vh);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRightIntoPlace {
+  0% {
+    transform: translateX(50vw);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: translateY(0vw);
+    opacity: 1;
+  }
+}
+
+.hero-name-slide {
+  animation: slideLeftIntoPlace 3.25s ease-in-out forwards;
+}
+
+.hero-title-slide {
+  animation: slideLeftIntoPlace 2s ease-in-out forwards;
+}
+
+.hero-location-slide {
+  animation: slideLeftIntoPlace 2s ease-in-out forwards;
+}
+
+.hero-description-slide {
+  animation: slideLeftIntoPlace 1.5s ease-in-out forwards;
+}
+
+.technical-skills-title-slide {
+  animation: slideRightIntoPlace 3.25s ease-in-out forwards;
+}
+
+.technical-skills-first-row-slide {
+  animation: slideSkillsBottomIntoPlace 1.5s ease-in-out forwards;
+}
+
+.technical-skills-second-row-slide {
+  animation: slideSkillsBottomIntoPlace 2s ease-in-out forwards;
+}
+
+.education-title-slide {
+  animation: slideTopIntoPlace 3.25s ease-in-out forwards;
+}
+
+.education-first-row-slide {
+  animation: slideEducationBottomIntoPlace 1.5s ease-in-out forwards;
+}
+
+.education-second-row-slide {
+  animation: slideEducationBottomIntoPlace 2s ease-in-out forwards;
+}
+.education-third-row-slide {
+  animation: slideEducationBottomIntoPlace 2.5s ease-in-out forwards;
+}
+
+.experience-title-row-slide {
+  animation: slideTopIntoPlace 3.25s ease-in-out forwards;
+}
+
+.experience-first-row-slide {
+  animation: slideRightIntoPlace 2s ease-in-out forwards;
+}
+
+.header-slide {
+  animation: slideTopIntoPlace 3.75s ease-in-out forwards;
+}
+
+.experience-technical-skills-divider {
+  animation: slideRightIntoPlace 2.5s ease-in-out forwards;
+}
