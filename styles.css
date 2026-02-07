@@ -102,7 +102,7 @@
 }
 
 .experience-title-row-slide {
-  animation: slideTopIntoPlace 3.25s ease-in-out forwards;
+  animation: slideRightIntoPlace 3.25s ease-in-out forwards;
 }
 
 .experience-first-row-slide {
